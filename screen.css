@@ -1,0 +1,264 @@
+/* Mobil screen */
+
+/* Small secreen */
+@media (min-width: 768px) and (max-width: 991px) {
+  .left{
+    background-color: greenyellow;
+  }
+  
+}
+
+/* Medium secreen */
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .left{
+    background-color: blue;
+  }
+}
+
+/* Large secreen */
+
+@media (min-width: 1200px) and (max-width: 1399px){
+  .left{
+    background-color: orangered;
+  }
+
+
+}
+/* X-Large secreen */
+
+@media (min-width: 1400px) {
+  .contacier{
+    background-color: gold;
+  }
+
+}
+
+/* Custom screen */
+
+@media (min-width: 1199px){
+  .contacier{
+    background-color: #000;
+  }
+}
+
+
+/* Smart screen */
+
+@media (min-width: 0) and (max-width: 370px) {
+
+  
+  *{
+    font-size: large;
+    line-height: 40px;
+  }
+
+  main{
+    padding: 20px 25px;
+    justify-content: space-evenly;
+    flex-direction: column;  
+}
+
+  body{
+    height: auto;
+    min-height: 530px;
+    max-width: 1000px;
+  }
+
+
+header{
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5em;
+  max-width: 100%;
+}
+
+header a+a{
+  display: block;
+  }
+
+.left,.right{
+  width: 100%;
+  min-width: 100px;
+  /* max-width: 312px; */
+}
+
+.Table{width: 100%; height: 550px;}
+
+.Table table{overflow: scroll; width: 100%;}
+
+.Misc-Stuff{margin: 100px 0; width: 100%;}
+
+
+.Forms input[type=password], .Forms input[type=text]{
+  width: 100%;
+  min-width: 150px;
+  max-width:  260px;
+}
+
+.Forms input [type=text]{
+  height: 10px;
+}
+
+.left{
+  height: auto;
+}
+
+.contacier{
+  overflow-x:  hidden;
+}
+
+.image{
+  width: 100%;
+  min-width: 100px;
+  max-width: 250px; 
+}
+
+.image img{
+  width: 100%;
+  min-width: 100px;
+  max-width: 250px;
+  height: auto;
+  /* border: solid #000; */
+}
+
+
+.Forms button{
+
+  font-size: medium;
+  padding: 5px auto;
+  margin-right: 10px;
+}
+
+
+.Table{
+  /* border: solid #ff0000; */
+  width: 100%;
+}
+
+/* .left,.section-one,.section-one-left,.image,.section-two,
+.heading,.Paragraph,.list,.Forms,.Table,.Misc-Stuff,.More-Tags
+,.HTML{
+  
+} */
+
+.Table table {
+  padding: 5px;
+  width: 300px;
+  /* border: solid greenyellow; */
+}
+ 
+.overflow-x{
+  /* border: solid #0000ff; */
+  width: calc(100% - 20px);
+  height: 100%;
+  overflow-x: scroll;
+  margin-right: auto;
+}
+}
+
+@media (min-width: 371px) and (max-width: 500px) {
+  *{
+    font-size: large;
+    line-height: 50px;
+  }
+
+  main{
+    padding: 20px 25px;
+    justify-content: space-evenly;
+    flex-direction: column;  
+    min-width: 371px;
+    max-width:  500px;
+}
+
+  body{
+    height: auto;
+    min-height: 530px;
+    min-width: 371px;
+    max-width:  500px;
+    /* border: green solid 5px; */
+  }
+
+
+header{
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1em;
+  max-width: 100%;
+}
+
+header a+a{
+  display: block;
+  }
+
+.left,.right{
+  width: 100%;
+}
+
+.Table{width: 100%; height: 550px;}
+
+.Table table{overflow: scroll; width: 100%;}
+
+.Misc-Stuff{margin: 100px 0; width: 100%;}
+
+
+.Forms input[type=password], .Forms input[type=text]{
+  width: 100%;
+  min-width: 150px;
+  max-width:  260px;
+}
+
+.Forms input [type=text]{
+  height: 10px;
+}
+
+.left{
+  height: auto;
+  /* border: solid #ff0000; */
+}
+
+.contacier{
+  overflow-x:  hidden;
+}
+
+.image{
+  width: 100%;
+  min-width: 100px;
+  max-width: 370px; 
+}
+
+.image img{
+  width: 100%;
+  min-width: 200px;
+  max-width: 360px;
+  height: auto;
+  /* border: solid #ff0000; */
+}
+
+
+.Forms button{
+
+  font-size: medium;
+  padding: 5px auto;
+  margin-right: 10px;
+}
+
+
+.Table{
+  /* border: solid #ff0000; */
+  width: 100%;
+}
+
+.Table table {
+  padding: 5px;
+  width: 500px;
+  /* border: solid greenyellow; */
+}
+.overflow-x{
+width: calc(100% - 20px);
+height: 65%;
+overflow-x: scroll;
+margin-right: auto;
+
+}
+}
